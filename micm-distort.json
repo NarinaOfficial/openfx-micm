@@ -1,0 +1,76 @@
+{
+  "name": "MIC'M Ripple",
+  "version": "1.0",
+  "effects": [
+    {
+      "name": "MIC'M Wave",
+      "enabled": true,
+      "parameters": {
+        "amplitude": 25.0,
+        "frequency": 12.0,
+        "phase": 0.0,
+        "direction": 0.0
+      }
+    },
+    {
+      "name": "MIC'M Perspective",
+      "enabled": true,
+      "parameters": {
+        "tiltX": 15.0,
+        "tiltY": 10.0,
+        "depth": 50.0,
+        "fieldOfView": 45.0
+      }
+    },
+    {
+      "name": "MIC'M Tile",
+      "enabled": true,
+      "parameters": {
+        "tileCountX": 4,
+        "tileCountY": 4,
+        "mirror": true,
+        "spacing": 2.0
+      }
+    },
+    {
+      "name": "MIC'M Conformal Maps",
+      "enabled": true,
+      "parameters": {
+        "scale": 1.2,
+        "rotation": 30.0,
+        "complexity": 3.0,
+        "offset": 0.5
+      }
+    },
+    {
+      "name": "MIC'M Droste",
+      "enabled": true,
+      "parameters": {
+        "innerScale": 0.6,
+        "outerScale": 1.0,
+        "twist": 45.0,
+        "repeat": 5
+      }
+    },
+    {
+      "name": "MIC'M Clarabel Shapes",
+      "enabled": true,
+      "parameters": {
+        "shapeType": "polygon",
+        "sides": 6,
+        "radius": 50.0,
+        "smoothness": 0.8
+      }
+    },
+    {
+      "name": "MIC'M Lens Correction",
+      "enabled": true,
+      "parameters": {
+        "distortion": -0.2,
+        "chromaticAberration": 0.05,
+        "vignette": 0.3,
+        "scale": 1.1
+      }
+    }
+  ]
+}
