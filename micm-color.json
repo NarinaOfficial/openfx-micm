@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "effects": [
+    {
+      "name": "MIC'M Hue/Saturation",
+      "enabled": true,
+      "parameters": {
+        "hue": 0,
+        "saturation": 1.0,
+        "lightness": 1.0
+      }
+    },
+    {
+      "name": "MIC'M Channel Mixer",
+      "enabled": true,
+      "parameters": {
+        "red": { "r": 1.0, "g": 0.0, "b": 0.0 },
+        "green": { "r": 0.0, "g": 1.0, "b": 0.0 },
+        "blue": { "r": 0.0, "g": 0.0, "b": 1.0 }
+      }
+    },
+    {
+      "name": "MIC'M Invert",
+      "enabled": true,
+      "parameters": {
+        "strength": 1.0
+      }
+    },
+    {
+      "name": "MIC'M Contrast",
+      "enabled": true,
+      "parameters": {
+        "contrast": 1.0,
+        "brightness": 0.0
+      }
+    },
+    {
+      "name": "MIC'M",
+      "enabled": true,
+      "parameters": {
+        "intensity": 1.0
+      }
+    },
+    {
+      "name": "MIC'M Light Rays",
+      "enabled": true,
+      "parameters": {
+        "intensity": 1.0,
+        "angle": 45,
+        "length": 100
+      }
+    },
+    {
+      "name": "MIC'M Warhol",
+      "enabled": true,
+      "parameters": {
+        "palette": "pop",
+        "threshold": 0.5
+      }
+    },
+    {
+      "name": "MIC'M Thermal",
+      "enabled": true,
+      "parameters": {
+        "mode": "infrared",
+        "intensity": 1.0
+      }
+    }
+  ]
+}
